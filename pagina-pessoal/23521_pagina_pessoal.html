@@ -1,0 +1,157 @@
+<!--
+Curso: DesenvSistemas59
+Disciplina: Desenvolvimento para Internet I
+Professora: Márcia
+Aluno: Gustavo Inacio de Oliveira Cruz
+RA: 23521 
+Atividade: Página Pessoal
+Data: 25/03/2023
+-->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <title>23521 - Página Pessoal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <menu>
+            <li><a href="#whoami">Quem sou eu</a></li>
+            <li><a href="#cursos">Cursos que já fiz</a></li>
+            <li><a href="#hobbies">Hobbies e lazer</a></li>
+            <li><a href="#projetos">Projetos e sonhos</a></li>
+        <menu>
+    </nav>
+
+    <header>
+        <h1 class="nome">Gustavo Inacio de Oliveira Cruz</h1>
+        <img class="foto-de-perfil "src="media/foto-de-perfil.png" alt="Foto de perfil">
+    </header>
+    
+    <main>
+    <!-- Quem sou eu -->
+    <section id="whoami">
+        <h2>Quem sou eu</h2>
+        <p>Sou curioso, gosto de aprender, vivo em busca de novas ideias e acredito no saldo positivo de uma melhora contínua e incremental.</p>
+        <div class="skill-list">
+            <div class="soft-skills">
+                <h3>Minhas soft skills</h3>
+                <ul class="list">
+                    <li>Facilidade em aprender</li>
+                    <li>Orientação a detalhes</li>
+                    <li>Adaptabilide e flexibilidade</li>
+                    <li>Pensamento crítico</li>
+                    <li>Inteligência emocional</li>
+                    <li>Tomada de decisões</li>
+                </ul>
+            
+            </div>
+            <div class="desired-soft-skills">
+                <h3>Soft skills em desenvolvimento</h3>
+                <ul class="list">
+                    <li>Comunicação</li>
+                    <li>Relacionamento interpessoal</li>
+                    <li>Trabalho em equipe</li>
+                    <li>Criatividade e inovação</li>
+                    <li>Gerenciamento de tempo</li>
+                    <li>Networking</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        
+    <!-- Cursos que já fiz -->
+    <section id="cursos">
+        <h2>Cursos que já fiz</h2>
+        <table>
+            <thead>
+                <th>Curso</th>
+                <th>Conclusão</th>
+                <th>O que aprendi</th>
+            </thead>
+            <tbody>
+                <!-- CS50 -->
+                <tr>
+                    <td>
+                        <a href="https://cs50.harvard.edu/x/2023/">
+                            <img src="media/cs50.png" alt="Banner do curso CS50x">
+                        </a>
+                    </td>
+                    <td class="conclusão">
+                        <p class="unfinished">Não concluído</p>
+                    </td>
+                    <td>
+                        <p>
+                            Aprendi, utilizando a linguagem C, boas práticas de programação como <em>DRY</em>, nomeação significativa de variáveis, documentação com comentários, e conceitos de modularização e dividir e conquistar. Conheci algoritmos de busca (binária, linear) e ordenação (bubble, merge), além das notações de <em>time complexity</em> Big O, omega e theta. Fui introduzido às principais estruturas de dados, como <em>array</em>, listas ligadas e duplamente ligadas, <em>hash table</em> e <em>B-Tree</em>, além de suas relações espaço-tempo. Também aprendi conceitos de memória como <em>heap</em>, <em>stack</em>, gerenciamento de memória e ponteiros.
+                        </p>
+                    <td>
+                </tr>
+                <!-- Web Development Bootcamp -->
+                <tr>
+                    <td>
+                        <a href="https://www.udemy.com/course/the-complete-web-development-bootcamp/">
+                            <img src="media/web-development-bootcamp.webp" alt="The Complete 2023 Web Development Bootcamp">
+                        </a>
+                    </td>
+                    <td class="conclusão">
+                        <p class="unfinished">Não concluído</p>
+                    </td>
+                    <td>
+                    <p>
+                        Aprendi as tags básicas de HTML5, vários conceitos de CSS como <em>flexbox</em>, o <em>box model</em>, atributos <code>class</code> e <code>id</code>, hierarquia de seletores e <em>cascading</em>. Aprendi a sintaxe, estruturas de controle e orientação a objetos do JavaScript, e apliquei esses conhecimentos na manipulação do DOM com <em>event listeners</em> e alteração de conteúdo. Também entrei em contato com os frameworks Bootstrap e jQuery.
+                    </p> 
+                    </td>
+                </tr>
+                <!-- Curso de Python 3 -->
+                <tr>
+                    <td>
+                        <a href="https://www.youtube.com/watch?v=S9uPNppGsGo&list=PLvE-ZAFRgX8hnECDn1v9HNTI71veL3oW0">
+                            <img src="media/curso-de-python-3.jpg" alt="Curso de Python 3 do Curso em vídeo">
+                        </a>
+                    </td>
+                    <td class="conclusão">
+                        <p class="finished">2021</p>    
+                    </td>
+                    <td>
+                        <p>
+                            Foi meu primeiro curso introdutório à programação. Nele aprendi: o conceito de variável e como criar uma; os operadores aritméticos, lógicos, relacionais e sua ordem de precedência; a utilizar as built-in functions como <code>range()</code>, <code>type()</code>, <code>input()</code>, dentre outras; a utilizar <code>if elif else</code> statements e estruturas de repetição <code>while</code> e <code>for</code>; a definir funções e sua importância para modularidade, manutenabilidade e legibilidade de código, e os tipos de coleção <code>list</code>, <code>tuple</code> e <code>dict</code>.
+                        </p>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+   
+    <!-- Hobbies e lazer -->
+    <section id="hobbies">
+        <h2>Hobbies e lazer</h2>
+        <p>Não tenho nenhum hobbie definido, mas sou curioso e considero algumas possibilidades:</p>
+        <ul class="list">
+            <li>Programação competitiva 🥇</li>
+            <li>Poesia 📖</li>
+            <li>Desenho e/ou pintura 🎨</li>
+            <li>Fotografia 📸</li>
+            <li>Xadrez ♟</li>
+            <li>Montar algum tipo de coleção <span class="line-through">apesar da produção em massa e globalização dificultarem uma coleção única</span></li>
+        </ul>
+        <p>No meu tempo livre gosto de assistir um bom filme 🎥, ler algo 📕 ou estudar um tópico do meu interesse 🤓</p>
+        <div class="citação">
+            <q>Aqueles que gastam mal o seu tempo são os primeiros a queixar-se da sua brevidade.</q> <em>- La Bruyère, Jean de</em>
+        </div>
+    </section>
+
+    <!-- Projetos e sonhos -->
+    <section id="projetos">
+        <h2>Projetos e sonhos</h2>
+        <ul class="list">
+            <li>Integrar o corpo de monitores do colégio</li>
+            <li>Participar de eventos, projetos, olimpíadas de informática e competições</li>
+            <li>Estagiar nas melhores empresas parceiras do colégio</li>
+            <li>Ingressar em um curso de nível superior em computação</li>
+            <li>Ganhar experiência profissional atuando em múltiplas frentes tecnológicas</li>
+            <li>Empreender em um negócio pessoal</li>
+        </ul>
+    </section>
+    </main>
+</body>
+</html>

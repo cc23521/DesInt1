@@ -1,0 +1,156 @@
+/*
+Curso: DesenvSistemas59
+Disciplina: Desenvolvimento para Internet I
+Professora: Márcia
+Aluno: Gustavo Inacio de Oliveira Cruz
+RA: 23521 
+Atividade: Página Pessoal
+Data: 25/03/2023 
+*/
+body {
+    background-color: #4E6E81;
+    color: #F9DBBB;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    margin-top: 2em;
+}
+
+h1,
+h2 {
+    color: #F9DBBB;
+    text-align: center;
+}
+
+/* Menu */
+menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;;
+    gap: 2em;
+}
+
+menu a {
+    text-decoration: none;
+    color: #F9DBBB;
+}
+
+menu a:hover {
+    color: #FF0303;
+    font-size: 1.15em;
+    text-decoration: underline;
+}
+
+/* Quem sou eu */
+
+.foto-de-perfil {
+    display: block;
+    margin: 0 auto;
+
+}
+
+#whoami p {
+    text-align: center;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    gap: 8em;
+}
+
+.desired-soft-skills,
+.soft-skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul.list {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 2em;
+    display: flex;
+    border-radius: 15%;
+    flex-direction: column;
+    gap: 1em;
+    font-weight: bold;
+}
+
+.soft-skills .list {
+    background-color: #16a709;
+}
+
+.desired-soft-skills .list {
+    background-color: #DF2E38;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+#whoami .list:hover {
+    animation: blinker 3s linear infinite;
+}
+
+/* Cursos que já fiz */
+th,
+td {
+    padding: 1em;
+}
+
+tr img,
+tr img,
+tr img {
+    height: auto;
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+}
+
+td p {
+    padding: 1em;
+    text-align: justify;
+    border: dashed #F9DBBB;
+}
+
+td.conclusão p {
+    text-align: center;
+    border: none;
+}
+
+p.unfinished {
+    color: #FF0303;
+    font-weight: bold;
+}
+
+p.finished {
+    color: #16a709;
+    font-weight: bold;
+}
+
+/* Hobbies e lazer */
+#hobbies p {
+    text-align: center;
+}
+
+.citação {
+    padding-top: 1em;
+    text-align: center;
+}
+
+span.line-through {
+    text-decoration: line-through red 4px;
+}
+
+#hobbies .list,
+#projetos .list {
+    text-align: center;
+    background-color: #2E3840;
+    width: 15em;
+    margin: 0 auto;
+}
