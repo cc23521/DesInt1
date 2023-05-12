@@ -29,5 +29,5 @@ document.querySelectorAll(".botao").forEach(botao => {
             }
             textoVisor.value = textoVisor.value + botao.value;
         }     
-    })
-}) 
+    });
+}); 
